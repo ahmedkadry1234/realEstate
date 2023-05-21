@@ -1,0 +1,37 @@
+.PrivacyPolicy h3,.PrivacyPolicy h2{
+    font-weight: bold;
+}
+.PrivacyPolicy ul {
+    line-height: 2.5rem;
+}
+/* /////////////////////////// */
+.terms .link .btn {
+    border: 1px solid;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+.terms .link .active{
+position: relative;
+background-color: #80808040;
+}
+.terms .link .active::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background-color: red;
+    top: 0px;
+    right: 0;
+}
+.terms .child h2{
+font-weight: bolder;
+}
+.terms  .child{
+    line-height: 2rem;
+}

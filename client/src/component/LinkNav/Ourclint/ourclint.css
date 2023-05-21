@@ -1,0 +1,92 @@
+.ourclint{
+    background-color: #f3f3f3;
+}
+.secheader{
+    background-image: url("https://www.propertyfinder.eg/dist/desktop/assets/764e3dcda5.find-agent-header-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+    position: relative;
+    overflow: hidden;
+}
+.overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(18,22,25,0.7);;
+}
+.secheader .searched{
+    position: absolute;
+    padding: 5rem 0;
+    display: grid;
+    gap: 22px;
+    justify-items: center;
+}
+.searched .label{
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+}
+.secheader .form-control{
+    width: 60%;
+}
+.contcommpany{
+    margin-top: 30px;
+
+} 
+.contcommpany img{
+    border-bottom: 2px solid #00000024;
+    border-radius: 20px 20px 0 0;
+}
+.contcommpany .titel{
+    margin-bottom: 30px;
+    border-bottom: 2px solid #00000017;;
+}
+.company .col-sm-12{
+    margin-bottom: 20px;
+}
+.company .card{
+    height: fit-content;
+    border-color: white;
+    border-radius: 20px;
+}
+.company .card:hover{
+    box-shadow: 0 0 0.6rem rgba(92,92,92,0.57);
+    cursor: pointer;
+}
+.company  a{
+    text-decoration: none;
+    color: black;
+}
+
+.company .card .card-titel{
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0 15px;;
+    margin: 20px 0;
+}
+.card-footer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0;
+    background-color: white;
+    border-radius: 0px 0px 20px 20px !important;
+}
+.card-footer span{
+    font-size: xx-small;
+}
+.card-footer div:not(:last-child){
+    border-right: 1px solid #00000066;
+}
+.card-footer div{
+    text-align: center;
+    padding: 10px;
+}
+.viewallclint{
+    text-align: center;
+    margin: 20px 0;
+}

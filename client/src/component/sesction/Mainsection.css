@@ -1,0 +1,32 @@
+.Mainsection .container {
+  margin-top: 20px;
+}
+.Mainsection .container .titel {
+  text-align: center;
+}
+.Mainsection .container .titel h4 {
+  font-weight: bolder;
+  position: relative;
+}
+.Mainsection .allview {
+  margin: 10px 0;
+  text-decoration: none;
+}
+.Mainsection .container .card {
+  cursor: pointer;
+}
+.Mainsection .container .card:hover {
+  opacity: 88%;
+}
+.Mainsection .description {
+  color: #3b97ba;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: bolder;
+}
+
+.Mainsection .pric {
+  color: #ef5e4e;
+  font-weight: bolder;
+}

@@ -1,0 +1,37 @@
+.broker {
+  background-color: #f3f3f3;
+}
+.broker .col-sm-12 {
+  margin: 25px 25px 25px 0;
+  background-color: white;
+  border-radius: 16px;
+  padding: 0 20px;
+}
+.broker .top-card-broker {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #00000061;
+}
+.broker .img {
+  width: 40%;
+}
+.broker .img img {
+  width: 100%;
+}
+.broker .info {
+  width: 60%;
+}
+.broker .info .name-broker {
+  font-size: x-large;
+  font-weight: bold;
+}
+.broker .total-properties-broker {
+  font-weight: bold;
+}
+.broker .total-properties-broker span {
+  color: #00000080;
+}
+.broker .btn-danger{
+    display: block;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,50 @@
+.Login {
+  height: 100vh !important;
+  margin: auto;
+}
+form {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  margin: 50px auto;
+  width: fit-content;
+  padding: 15px;
+}
+
+.logation {
+  position: relative;
+  text-align: center;
+}
+.logation a {
+  text-decoration: none;
+}
+.Log {
+  width: 50%;
+  cursor: pointer;
+}
+.Login .active {
+  background-color: blue;
+  border-radius: 50px;
+  color: #fff;
+}
+
+/* /////////////////////////////////// */
+.title-Name {
+  font-size: large;
+  font-weight: bold;
+  color: #3a3ab8;
+  text-align: center;
+  background-color: #929292;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+}
+.continue {
+  background-color: rgb(108, 108, 188);
+}
+.sign {
+  margin-top: 25px;
+  text-align: center;
+}
+.Googelbtn{
+  text-align: center;
+}

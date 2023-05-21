@@ -1,0 +1,85 @@
+[
+    {
+      "id": 1,
+      "img":"https://www.propertyfinder.eg/images/pf_broker/logo/8f1e86442c382c8fe1a3ae48f13d9e324f873cd4/desktop",
+      "companyname": "Luxury Property",
+      "type": "Apartment",
+      "forrint": "9",
+      "number":"02205987",
+      "forsale": "2254",
+      "commercail": "11"
+    },
+    {
+      "id": 2,
+      "img": "https://www.propertyfinder.eg/images/pf_broker/logo/554c4cae394eb53cffa708d3ff300d98b1bb7bc0/desktop",
+      "companyname":"GPR Property",
+      "type": "Villa",
+      "forrint": "2",
+      "number":"02205987",
+      "forsale": "3029",
+      "commercail": "15"
+    },
+    {
+      "id": 3,
+      "img": "https://www.propertyfinder.eg/images/pf_broker/logo/dcbc42e4bd4b2042ca9e19fea6c6fcbb1e15ee4e/desktop",
+      "companyname":"TAI - The Address Investments",
+      "type": "Office Space",
+      "forrint": "3",
+      "number":"02205987",
+      "forsale": "225",
+      "commercail": "12"
+    },
+    {
+      "id": 4,
+      "img": "https://www.propertyfinder.eg/images/pf_broker/logo/6ae90957847a19b76d8335fdeadda6715042e377/desktop",
+      "companyname": "Egypt Best Properties West",
+      "type": "Shop",
+      "forrint": "105",
+      "number":"02205987",
+      "forsale": "298",
+      "commercail": "91"
+    },
+    {
+      "id": 5,
+      "img": "https://www.propertyfinder.eg/images/pf_broker/logo/9ca1238077a126894dd2d39ef0745dc1bf6140a0/desktop",
+      "companyname": "Steigen Real Estate",
+      "type": "Apartment",
+      "forrint": "450",
+      "number":"02205987",
+      "forsale": "502",
+      "commercail": "262"
+    },
+    {
+      "id": 6,
+      "img": "https://www.propertyfinder.eg/images/pf_broker/logo/f3fe98e9226ee744404b3b148cbe3368ce51ccf3/desktop",
+      "companyname": "New Point",
+      "type": "Chalet",
+      "forrint": "509",
+      "number":"02205987",
+      "forsale": "3005",
+      "commercail": "278"
+    },
+    {
+      "id": 7,
+      "img": "https://www.propertyfinder.eg/images/pf_broker/logo/a4e4e04e58be8840e22542364f1411aef520a8cd/desktop",
+      "companyname": "Themar Real Estate",
+      "type": "Chalet",
+      "forrint": "390",
+      "number":"02205987",
+      "forsale": "1190",
+      "commercail": "76"
+    },
+    {
+      "id": 8,
+      "img": "https://www.propertyfinder.eg/images/pf_broker/logo/214c25b7b942b6afa6e09defa91ae8e0c87ffa66/desktop",
+      "companyname": "New Avenue Real Estate",
+      "type": "Chalet",
+      "forrint": "215",
+      "number":"02205987",
+      "forsale": "760",
+      "commercail": "82"
+    }
+
+  ]
+
+  

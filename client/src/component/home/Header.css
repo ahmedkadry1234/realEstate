@@ -1,0 +1,106 @@
+
+.formheader {
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  background-color: white;
+}
+.Header {
+  background-image: url("https://www.propertyfinder.eg/dist/desktop/assets/background-image-variant/eg/6660180d2e.1366.webp");
+  background-position: center;
+  position: relative;
+  width: 100%;
+  height: 60vh;
+}
+.Header .rent:hover {
+  background-color: #80808024;
+}
+.Header .buy:hover {
+  background-color: #80808024;
+}
+.search {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+}
+.headerselect,
+.Beds-baths {
+  margin-left: 10px;
+  padding: 10px;
+  border: 1px solid;
+  color: #0000005e;
+}
+.Header .active {
+  color: #ef5e4e !important;
+  font-weight: bold;
+  border: 1px solid #0000003b;
+  margin-left: 10px;
+}
+.submitbtn {
+  color: #ef5e4e;
+  font-weight: bold;
+  border: 1px solid #0000003b;
+  margin-left: 10px;
+  text-align: center;
+}
+.submitbtn:hover {
+  color: #ef5e4e;
+  background-color: #0000003b;
+  font-weight: bold;
+  border: 1px solid #0000003b;
+  margin-left: 10px;
+}
+@media only screen and (max-width: 800px) {
+  .formheader {
+    left: 0;
+  }
+  .search {
+    grid-template-columns: auto auto;
+  }
+}
+/* /////////////////////////////////////// */
+.DIVADD{
+  width: 100%;
+  height:auto;
+  position: fixed;
+  z-index: 9;
+  bottom: 0;
+  text-align: end;
+}
+.DIVADD .ref{
+  display: none;
+}
+.Addpropertis{
+position: absolute;
+right: 20px;
+bottom: 20px;
+font-size: xx-large;
+cursor: pointer;  
+color: green;
+}
+.CardAdd{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: none;
+}
+.CardAdd form{
+  position: relative;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  text-align: start;
+}
+.CardAdd form .buttons{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+}
+.CardAdd form .flex{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+}
+
+

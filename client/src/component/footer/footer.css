@@ -1,0 +1,9 @@
+.Footer a{
+    text-decoration: none;
+}
+@media only screen and (max-width:770px){
+     .footerrow{
+        display:grid;
+        grid-template-columns: auto auto;
+    }
+}

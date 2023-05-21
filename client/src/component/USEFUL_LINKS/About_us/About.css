@@ -1,0 +1,50 @@
+.infoslide{
+    text-align: center;
+    background-color: #808080b3;
+    padding: 20px 0;
+}
+.ourmistion{
+    text-align: center;
+    font-weight: bold;
+}
+.emailphone{
+display: flex;
+justify-content: center;
+}
+.update{
+    position: relative;
+    display: flex;
+    margin-bottom: 10px;
+}
+.update::before{
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 110%;
+    background-color: #00000045;
+    left: 10px;
+}
+.update .left{
+position: relative;
+}
+.update .left::before{
+    content: "";
+    position: absolute;
+    background-image: url(https://www.propertyfinder.eg/dist/desktop/assets/d61e6f0c2f.pf-icon-new.svg);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    right: 0px;
+    top: -23px;
+
+}
+.update .left .leftdiv{
+    width: 80%;
+    background-color: #00000021;
+    padding: 10px;
+}
+.date{
+    color: #0000007a;
+    font-size: xx-large;
+    text-align: center;
+}

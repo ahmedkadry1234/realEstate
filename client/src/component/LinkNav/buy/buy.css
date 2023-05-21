@@ -1,0 +1,117 @@
+.sidebage .first-line{
+    margin-bottom: 20px ;
+}
+.sidebage .first-line .fa-house{
+    font-size: x-small;
+}
+.sidebage .first-line .shap{
+    font-size: 25px;
+    color: #707070;;
+}
+.sidebage .first-line .text {
+    color: #707070;;
+    font-size: x-small;
+}
+.sidebage  .result{
+    color: #77757a;
+}
+.sidebage .third-line{
+    display: flex;
+    justify-content: space-between;
+} 
+.sidebage .third-line .sortby{
+    display: flex;
+    align-items: center;
+}
+.sidebage .propertylink {
+    margin: 15px 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color:#f9f9f9;
+    border: 0.1rem solid #dadada;
+    padding: 1rem 0.9rem;
+}
+.sidebage .propertylink .propname{
+    margin-bottom: 10px;
+}
+.sidebage .propertylink a{
+    text-decoration: none;
+}
+@media only screen and (max-width:800px){
+    .sidebage .propertylink{
+        grid-template-columns: auto auto ;
+    }
+    .sidebage .carditem .contactiem{
+        display: block !important ;
+    }
+}
+/* ///////////////////////////////////////////// */
+ .sidebage .sidebageitems{
+    margin-top: 20px;
+ }
+ .sidebage .carditem{
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: 1px solid #e3e3e3;
+    border-radius: 20px;
+ }
+ .sidebage .carditem img{
+width: 100%;
+ }
+ .sidebage .carditem .detelsitem{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #707070;
+ }
+ .sidebage .carditem:hover{
+    background-color: #f9f9f9;
+ }
+ .sidebage .carditem .textover{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 10px;
+ }
+ .sidebage .carditem .footerdetesitem{
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .sidebage .carditem .contactiem{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color:#f7f7f7;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+ }
+ .sidebage .carditem .contactiem .timepost{
+    font-size: small;
+    color: #00000091;
+ }
+.sidebage .carditem .socialmedia  .number{
+    padding-right: 0px;
+    display: initial;
+}
+.sidebage .carditem .socialmedia  .number .back{
+background-color: black;
+color: white;
+margin-left: 5px;
+padding: 7px;
+border-radius: 0 8px 6px 0;
+}
+ .sidebage .carditem .contactiem .socialmedia .btn{
+     border: 1px solid #00000063;
+     color:#5745A0 ;
+     background-color: white;
+     margin: 0 5px;
+}
+.sidebage .pad{
+    margin-right: 10px;
+}
+.displaynone{
+    display: none;
+}
+.displayblock{
+    display: block;
+}

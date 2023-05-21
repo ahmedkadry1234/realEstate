@@ -1,0 +1,169 @@
+.swiper {
+  width: 100%;
+  height: 50%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  width: 100%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+
+.mySwiper2 {
+  width: 100%;
+}
+
+.mySwiper {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.mySwiper .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.details-contact {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.details .des {
+  text-align: center;
+  font-weight: bolder;
+}
+.simpledetails {
+  margin-left: 20px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.simpledetails span {
+  margin-left: 50px;
+  font-weight: bolder;
+}
+.contact {
+  border: 2px solid #00000024;
+  padding: 26px 0;
+  border-radius: 10px;
+}
+.contact .price {
+  text-align: center;
+  font-weight: bolder;
+  font-size: large;
+}
+.contact .call {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 2px;
+  justify-content: center;
+  margin-top: 10px;
+}
+.call .btn span {
+  margin-left: 5px;
+}
+.contact .fav {
+  text-align: center;
+  margin-top: 15px;
+  border-top: 1px solid;
+}
+.contact .fav span {
+  margin-left: 5px;
+}
+.contact .fav .fa-heart {
+  cursor: pointer;
+}
+
+/* ///////////// */
+/* more detalies */
+.more-detailes {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-items: start;
+  padding: 0 30px;
+}
+.more-detailes .location .map {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  gap: 15px;
+}
+.more-detailes .location .map .map-background {
+  position: relative;
+  background-image: url("https://www.propertyfinder.eg/dist/common/assets/c70d76248e.map.svg");
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.more-detailes .location .map .map-background .btn {
+  position: absolute;
+  top: 35%;
+  right: 35%;
+  color: blue;
+  background-color: white;
+  font-weight: bolder;
+}
+.more-detailes .Agent-broker {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 15px;
+}
+.more-detailes .Agent-broker .phot {
+  width: 150px;
+  height: 150px;
+}
+.more-detailes .Agent-broker .phot img {
+  max-width: 100%;
+  border-radius: 40%;
+}
+.more-detailes .Agent-broker .name-agent {
+  font-family: cursive;
+  font-weight: bolder;
+}
+.Description_for_user {
+  padding: 0 20px;
+}
+/* /////////////////////////// */
+@media only screen and (max-width: 760px) {
+  .details-contact {
+    grid-template-columns: auto;
+  }
+  .simpledetails {
+    margin-left: 5px;
+  }
+  .simpledetails span {
+    margin-left: 20px;
+  }
+  .more-detailes {
+    grid-template-columns: auto;
+  }
+}
